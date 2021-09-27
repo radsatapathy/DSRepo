@@ -8,11 +8,11 @@ I recently completed a masters program in data science from the University of Ca
 
 The world of data and analysis continues to fascinate me. This repository contains some of my recent work.
 
-__ 1. Airline Delay Prediction:__ predicting airline departure delays.
+__1. Airline Delay Prediction:__ predicting airline departure delays.
 
-### 2. Avocados Galore: a market entry analysis for the favorite fruit-veggie.
+__2. Avocados Galore:__ a market entry analysis for the favorite fruit-veggie.
  
-### 3. Bike Share: an analysis of trips for improving ridership. 
+__3. Bike Share:__ an analysis of trips for improving ridership. 
 
 4. PolluteMeNot: a high interest project for the EPA.
 
