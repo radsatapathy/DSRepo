@@ -1,0 +1,75 @@
+# Delays by YEAR, QUARTER
+
+query = f"""
+       WITH delay_counts AS 
+       (
+        select YEAR, 
+               QUARTER, 
+               count(*) as count
+        from airlines_raw
+        where DEP_DEL15 = 1
+        group by YEAR, QUARTER
+       )
+      select YEAR as Year,
+             QUARTER as Quarter, 
+             count 
+      from delay_counts
+      order by Year, Quarter
+       """
+if VALIDATE:
+  df = spark.sql(query)
+  display(df.withColumn('YEAR-QUARTER', f.concat(f.col('Year'),f.lit('-Q'), f.col('Quarter'))))
+
+
+-----------------------------------------------------------
+
+
+# Delays by Delay Duration
+
+query = f"""
+         select YEAR, QUARTER, DEP_DELAY_GROUP, count(*) as tot_count
+         from airlines_raw
+         where DEP_DELAY_GROUP in (1,2,3,4) and year != '2019'
+         group by YEAR, QUARTER, DEP_DELAY_GROUP
+         order by YEAR,QUARTER, DEP_DELAY_GROUP      
+       """
+if VALIDATE:
+  df = spark.sql(query)
+  display(df.withColumn('YEAR-QUARTER', f.concat(f.col('Year'),f.lit('-Q'), f.col('Quarter')))
+            .select('YEAR', 'QUARTER', 'DEP_DELAY_GROUP', 'tot_count')
+         )
+
+
+---------------------------------------------------------
+
+
+# Delays by Delay Type 
+
+query = f"""
+       select YEAR, 
+              QUARTER, 
+              count(*) as tot_flights,
+              sum(DEP_DELAY) as tot_delay,
+              sum(WEATHER_DELAY) as weather_delay, 
+              sum(NAS_DELAY) as nas_delay,
+              sum(SECURITY_DELAY) as security_delay,
+              sum(LATE_AIRCRAFT_DELAY) as late_aircraft_delay,
+              sum(CARRIER_DELAY) as carrier_delay
+      from airlines_raw
+      group by YEAR, QUARTER
+      
+       """
+if VALIDATE:
+  df = spark.sql(query)
+  display(df.withColumn('YEAR-QUARTER', f.concat(f.col('Year'),f.lit('-Q'), f.col('Quarter')))
+            .withColumn('extreme_weather%', f.col('weather_delay')*100./f.col('tot_delay'))
+            .withColumn('NAS%', f.col('nas_delay')*100./f.col('tot_delay'))
+            .withColumn('carrier%', f.col('carrier_delay')*100./f.col('tot_delay'))
+            .withColumn('late_aircraft%', f.col('late_aircraft_delay')*100./f.col('tot_delay'))
+            .withColumn('security%', f.col('security_delay')*100./f.col('tot_delay'))
+            .select('YEAR-QUARTER','extreme_weather%','NAS%', 'carrier%', 'late_aircraft%', 'security%')
+           .orderBy('YEAR-QUARTER' )
+         )
+
+
+
