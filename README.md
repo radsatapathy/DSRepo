@@ -1,3 +1,3 @@
-# Welcome to my Data Science Hub!
+# Welcome to my Data Science space!
 
 My name is Radhika Satapathy.
