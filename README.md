@@ -10,9 +10,9 @@ The world of data and analysis continues to fascinate me. This repository contai
 
 ### 1. Airline Delay Prediction: predicting airline departure delays.
 
-2. Avocados Galore: a market entry analysis for the favorite fruit-veggie.
+### 2. Avocados Galore: a market entry analysis for the favorite fruit-veggie.
  
-3. Bike Share: an analysis of trips for improving ridership. 
+### 3. Bike Share: an analysis of trips for improving ridership. 
 
 4. PolluteMeNot: a high interest project for the EPA.
 
