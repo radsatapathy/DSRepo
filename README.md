@@ -27,3 +27,5 @@ __8. Random Acts Of Kindness:__ a field experiment and causal analysis of whethe
 __9. Skin Lesion Classification:__ a way to provide a quick, "picture diagnostic" of potential malignant skin cancers.
 
 __10. Women Rising:__ an informational website that provides a comprehensive view of gender equality data and presents status and trends in leadership of women in business
+
+Feel free to explore! 
