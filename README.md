@@ -1,10 +1,10 @@
 # Welcome to my Data Science space!
 
-My name is __Radhika Satapathy. 
+My name is __Radhika Satapathy.__ 
 
 I am an engineer and data scientist by training, with over 6 years of professional experience in software product engineering, business systems analysis and implementation of ERP systems for supply chain management. 
 
-I recently completed a masters program in data science from the __University of California, Berkeley. 
+I recently completed a masters program in data science from the __University of California, Berkeley.__ 
 
 The world of data and analysis continues to fascinate me. This repository contains some of my recent work.
 
