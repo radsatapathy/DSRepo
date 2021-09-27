@@ -8,9 +8,9 @@ I recently completed a masters program in data science from the __University of 
 
 The world of data and analysis continues to fascinate me. This repository contains some of my recent project work.
 
-    __1. Airline Delay Prediction:__ predicting airline departure delays.
+   __1. Airline Delay Prediction:__ predicting airline departure delays.
 
-    __2. Avocados Galore:__ a market entry analysis for the favorite fruit-veggie.
+   __2. Avocados Galore:__ a market entry analysis for the favorite fruit-veggie.
  
 __3. Bike Share:__ an analysis of trips for improving ridership. 
 
