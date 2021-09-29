@@ -9,6 +9,8 @@ https://www.kaggle.com/neuromusic/avocado-prices. The data comprised 18k rows an
 
 Population data for regions was obtained from Haver Analytics.
 
+![](Code/Images/Data.png)
+
 ![](Code/Images/AvocadoSales.png)
 
 ![](Code/Images/AvocadoSalesOverTime.png)
