@@ -16,6 +16,8 @@ This project presents a machine learning model that we developed using individua
 
 ![](Code/Images/DelayByType.png)
 
+### Model Pipeline
+
 ![](Code/Images/ModelPipeline.png)
 
 ![](Code/Images/FeatureSelection.png)
