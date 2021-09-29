@@ -1,1 +1,1 @@
-![alt text for screen readers](/Code/Images/DelayByType.png "Delays By Type")
+![](Code/Images/DelayByType.png)
