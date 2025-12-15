@@ -10,7 +10,8 @@ I relatively recently completed a masters program in data science from the __Uni
 
 * Designing solutions to complex problems impacting humans and our planet motivates me. 
 
-* Building tecnology products excites me! 
+* Building tecnology products excites me!
+  
 
 This repository contains some of my personal project work.
 
