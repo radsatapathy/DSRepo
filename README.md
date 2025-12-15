@@ -6,7 +6,11 @@ I am an engineer and data scientist by training, with over 9 years of profession
 
 I relatively recently completed a masters program in data science from the __University of California, Berkeley,__ and have been working at __Ecolab__ as a __Data Scientist / Applied ML Technical Product Lead.__ 
 
-The world of data and analysis continues to fascinate me. Designing solutions to complex problems motivates me. Building products excites me. 
+The world of data and analysis continues to fascinate me. 
+
+Designing solutions to complex problems impacting humans and our planet motivates me. 
+
+Building tecnology products excites me! 
 
 This repository contains some of my personal project work.
 
