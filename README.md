@@ -1,12 +1,14 @@
-# Welcome to my Data Science space!
+# Welcome to my Data Science & Product space!
 
 My name is __Radhika Satapathy.__ 
 
-I am an engineer and data scientist by training, with over 6 years of professional experience in software product engineering, business systems analysis and implementation of ERP systems for supply chain management. 
+I am an engineer and data scientist by training, with over 9 years of professional experience in building software and AI products. 
 
-I recently completed a masters program in data science from the __University of California, Berkeley.__ 
+I relatively recently completed a masters program in data science from the __University of California, Berkeley, and have been working at Ecolab as a Data Scientist / Applied ML Technical Product Lead.__ 
 
-The world of data and analysis continues to fascinate me. This repository contains some of my recent project work.
+The world of data and analysis continues to fascinate me. Designing solutions to complex problems motivates me. Building products excites me. 
+
+This repository contains some of my personal project work.
 
 __1. Airline Delay Prediction:__ predicting airline departure delays.
 
@@ -27,5 +29,10 @@ __8. Random Acts Of Kindness:__ a field experiment and causal analysis of whethe
 __9. Skin Lesion Classification:__ a way to provide a quick, "picture diagnostic" of potential malignant skin cancers.
 
 __10. Women Rising:__ an informational website that provides a comprehensive view of gender equality data and presents status and trends in leadership of women in business
+
+__11. FutureYou:__ Defined product strategy, AI experience design, user segmentation, AI-experience design and GTM planning for a conversational AI career-mentor platform; identified user personas, solution architecture, success metrics, and a pilot launch model
+
+__12. MindBloom:__ early product strategy and PRD for an AI-adaptive cognitive wellness platform,including no-code prototypes, competitive differentiation, and outcome-focused metrics for cognitive improvement and engagement. 
+
 
 Feel free to explore! 
