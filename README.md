@@ -35,7 +35,7 @@ __9. Skin Lesion Classification:__ a way to provide a quick, "picture diagnostic
 
 __10. Women Rising:__ an informational website that provides a comprehensive view of gender equality data and presents status and trends in leadership of women in business
 
-__11. FutureYou:__ Defined product strategy, AI experience design, user segmentation, AI-experience design and GTM planning for a conversational AI career-mentor platform; identified user personas, solution architecture, success metrics, and a pilot launch model
+__11. FutureYou:__ early product strategy, AI experience design, user segmentation, AI-experience design and GTM planning for a conversational AI career-mentor platform; identified user personas, solution architecture, success metrics, and a pilot launch model
 
 __12. MindBloom:__ early product strategy and PRD for an AI-adaptive cognitive wellness platform,including no-code prototypes, competitive differentiation, and outcome-focused metrics for cognitive improvement and engagement. 
 
