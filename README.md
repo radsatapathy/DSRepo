@@ -4,7 +4,7 @@ My name is __Radhika Satapathy.__
 
 I am an engineer and data scientist by training, with over 9 years of professional experience in building software and AI products. 
 
-I relatively recently completed a masters program in data science from the __University of California, Berkeley, and have been working at Ecolab as a Data Scientist / Applied ML Technical Product Lead.__ 
+I relatively recently completed a masters program in data science from the __University of California, Berkeley,__ and have been working at __Ecolab__ as a __Data Scientist / Applied ML Technical Product Lead.__ 
 
 The world of data and analysis continues to fascinate me. Designing solutions to complex problems motivates me. Building products excites me. 
 
